@@ -1,0 +1,3 @@
+C:/Users/heged/Documents/Egyetem/C_PP/cmake-build-debug-visual-studio/CMakeFiles/C_PP.dir
+C:/Users/heged/Documents/Egyetem/C_PP/cmake-build-debug-visual-studio/CMakeFiles/edit_cache.dir
+C:/Users/heged/Documents/Egyetem/C_PP/cmake-build-debug-visual-studio/CMakeFiles/rebuild_cache.dir

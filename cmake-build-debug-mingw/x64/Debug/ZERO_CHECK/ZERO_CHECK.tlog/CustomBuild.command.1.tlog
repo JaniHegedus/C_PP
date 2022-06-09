@@ -1,0 +1,10 @@
+^C:\USERS\HEGED\DOCUMENTS\EGYETEM\C_PP\CMAKE-BUILD-DEBUG-MINGW\CMAKEFILES\0EA853749943E09748C048B33EDB4CB4\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\JetBrains\CLion 2022.1.2\bin\cmake\win\bin\cmake.exe" -SC:/Users/heged/Documents/Egyetem/C_PP -BC:/Users/heged/Documents/Egyetem/C_PP/cmake-build-debug-mingw --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/heged/Documents/Egyetem/C_PP/cmake-build-debug-mingw/C_PP.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
