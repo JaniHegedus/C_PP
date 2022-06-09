@@ -13,7 +13,6 @@ using namespace std;
 int main() {
 
     setlocale(LC_ALL, "hun");
-    
 
     printf("Helló Világ!\n");
     newfunction(2);
@@ -29,5 +28,9 @@ int main() {
     cout <<honap<<". hónap "<< responder(honap)<<"i hónap!"<<endl;
     string sor="Ebben a sorban 1 szám van.";
     cout<<sor<<" Számok száma: "<<numkarakter(sor)<<endl;
+    cin.ignore(std::cin.rdbuf()->in_avail());
+    cout << "Press Enter to End" << endl;
+    cin.ignore();
+    return 0;
 }
 
