@@ -1,17 +1,12 @@
 // Demo.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 #include <iostream>
-#include <stdio.h>
-#include <locale.h>
 
 #include "functionheader.h"
 #include "ember.h"
 #include "rec.h"
 #include "date.h"
 #include "point.h"
-
-#define MAX_X 1024
-#define MAX_Y 768
 
 using namespace std;
 
